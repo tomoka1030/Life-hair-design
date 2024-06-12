@@ -648,12 +648,12 @@ Style
 }
 @media screen and (max-width: 1072px) {
   .style__item {
-    margin: 0 10px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 767px) {
   .style__item {
-    margin: 0;
+    margin: 0 10px;
   }
 }
 .style__img {
@@ -1307,9 +1307,11 @@ Access
   }
 }
 .access_contents {
+  width: 90%;
   display: flex;
   gap: 40px;
   align-items: center;
+  margin: 0 auto;
   padding-top: 100px;
 }
 @media screen and (max-width: 1000px) {
