@@ -493,6 +493,11 @@ SalonInfo
   font-family: "futura-pt", sans-serif;
   font-size: 33px;
 }
+@media screen and (max-width: 1000px) {
+  .saloninfo .info__head {
+    font-size: 27px;
+  }
+}
 @media screen and (max-width: 767px) {
   .saloninfo .info__head {
     font-size: 30px;
@@ -508,7 +513,7 @@ SalonInfo
   padding: 0.1rem 0.4rem;
   border-bottom: 1px solid #ee8288;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .saloninfo .point {
     text-align: center;
     padding: 0.2rem 0.4rem;
@@ -543,7 +548,7 @@ SalonInfo
   font-family: "futura-pt", sans-serif;
   color: #ee8288;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .saloninfo .small__text_pink {
     margin-bottom: 0;
     font-size: 14px;
@@ -554,7 +559,7 @@ SalonInfo
   font-size: 29px;
   color: #ee8288;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .saloninfo .text_pink-number {
     font-size: 25px;
   }
@@ -605,6 +610,18 @@ Style
   gap: 20px;
   padding-top: 100px;
 }
+@media screen and (max-width: 1072px) {
+  .style__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin: 50px auto 0;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
 @media screen and (max-width: 767px) {
   .style__container {
     display: grid;
@@ -629,9 +646,14 @@ Style
   width: 240px;
   margin-bottom: 60px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1072px) {
   .style__item {
     margin: 0 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .style__item {
+    margin: 0;
   }
 }
 .style__img {
