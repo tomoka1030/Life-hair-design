@@ -479,7 +479,7 @@ SalonInfo
 }
 .saloninfo .info__item {
   width: 32%;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 @media screen and (max-width: 767px) {
   .saloninfo .info__item {
