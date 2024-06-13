@@ -1449,7 +1449,7 @@ Access
 
 
     iframe{
-        width: 60%;
+        width: 50%;
         height: 328px;
         border: 1px solid #ee8288;
         
@@ -1464,7 +1464,7 @@ Access
     }
 
     &__text {
-        width: 45%;
+        width: 50%;
         text-align: left;
 
         @include media(xl){

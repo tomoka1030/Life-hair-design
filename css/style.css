@@ -1323,7 +1323,7 @@ Access
   }
 }
 .access iframe {
-  width: 60%;
+  width: 50%;
   height: 328px;
   border: 1px solid #ee8288;
 }
@@ -1339,7 +1339,7 @@ Access
   }
 }
 .access__text {
-  width: 45%;
+  width: 50%;
   text-align: left;
 }
 @media screen and (max-width: 1000px) {
