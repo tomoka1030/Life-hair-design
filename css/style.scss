@@ -721,7 +721,6 @@ Style
     &__item {
         position: relative;
         width: 240px;
-        margin-bottom: 60px;
 
         @include media(xxl){
             margin: 0;

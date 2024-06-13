@@ -644,7 +644,6 @@ Style
 .style__item {
   position: relative;
   width: 240px;
-  margin-bottom: 60px;
 }
 @media screen and (max-width: 1072px) {
   .style__item {
