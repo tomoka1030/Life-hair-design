@@ -430,7 +430,7 @@ Concept
     }
 
     .section__title{
-        padding-top: 80px;
+        padding-top: 40px;
 
         @include media(md){
             display: none;
@@ -446,6 +446,12 @@ Concept
         font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3",
             "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
             "ＭＳ 明朝", serif;
+
+        @include media(xl){
+            padding-top: 10px;
+            font-size: 30px;
+            letter-spacing: 0.1em;
+        }
 
         @include media(md){
             font-size: 24px;

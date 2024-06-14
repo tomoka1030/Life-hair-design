@@ -368,7 +368,7 @@ Concept
   text-align: center;
 }
 .concept .section__title {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 @media screen and (max-width: 767px) {
   .concept .section__title {
@@ -382,6 +382,13 @@ Concept
   line-height: 1.6;
   color: #ee8288;
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+@media screen and (max-width: 1000px) {
+  .concept__title {
+    padding-top: 10px;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+  }
 }
 @media screen and (max-width: 767px) {
   .concept__title {
