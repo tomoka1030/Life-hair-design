@@ -180,7 +180,7 @@ HEADER
         height: 100%;
         border-radius: 15px;
         object-fit: cover; 
-        object-position: center center;
+        // object-position: 0 -30px;
 
         @include media(md){
             object-position: 0;
