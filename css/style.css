@@ -1430,7 +1430,6 @@ Access
 }
 .payment li span {
   border-left: 3px solid #ec9397;
-  border-radius: 2px;
   padding-left: 5px;
 }
 .payment li .payment__img {
