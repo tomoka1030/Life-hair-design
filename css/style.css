@@ -169,9 +169,14 @@ HEADER
   margin-left: 25px;
   width: 180px;
 }
+@media screen and (max-width: 1072px) {
+  .header__logo {
+    width: 150px;
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 870px) {
   .header__logo {
-    margin-top: 20px;
     width: 150px;
   }
 }
@@ -230,7 +235,7 @@ HEADER
   .sp__btn {
     position: absolute;
     top: 45px;
-    right: 30px;
+    right: 40px;
     display: block;
     height: 23px;
     cursor: pointer;
@@ -250,6 +255,12 @@ HEADER
 @media screen and (max-width: 1100px) and (max-width: 767px) {
   .sp__btn span {
     top: 3px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sp__btn {
+    top: 38px;
+    right: 30px;
   }
 }
 .sp__btn span::before,

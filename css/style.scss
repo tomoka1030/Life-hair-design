@@ -211,9 +211,13 @@ HEADER
     margin-left: 25px;
     width: 180px;
 
+    @include media(xxl){
+        width: 150px;
+        margin-top: 10px;
+    }
+
     
     @include media(lg){
-        margin-top: 20px;
         width: 150px;
     }
 
@@ -285,7 +289,7 @@ HEADER
     .sp__btn {
         position: absolute;
         top: 45px;
-        right: 30px;
+        right: 40px;
         display: block;
         height: 23px;
         cursor: pointer;
@@ -305,6 +309,13 @@ HEADER
         @include media(md){
             top: 3px;
         }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sp__btn {
+        top: 38px;
+        right: 30px;
     }
 }
 
