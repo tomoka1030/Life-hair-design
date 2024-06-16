@@ -63,7 +63,6 @@ img {
 }
 /* 共通 */
 body {
-  filter: contrast(100%) brightness(100%);
   background: radial-gradient(circle at 50% 150%, rgb(239, 212, 212), rgb(255, 255, 255)), url("data:image/svg+xml,%3Csvg viewBox='0 0 261 261' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.01' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
@@ -142,8 +141,8 @@ HEADER
   border-radius: 15px;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 -30px;
-     object-position: 0 -30px;
+  -o-object-position: center center;
+     object-position: center center;
 }
 @media screen and (max-width: 767px) {
   .header__img img {
@@ -1708,13 +1707,12 @@ page top
 .pagetop {
   /* 固定表示 */
   position: fixed;
-  right: 100px;
-  bottom: 0px;
+  right: 60px;
+  bottom: 10px;
   width: 70px;
 }
 @media screen and (max-width: 767px) {
   .pagetop {
     right: 10px;
-    bottom: 0;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -43,12 +43,12 @@
         <div id="header">
             <div class="header__inner">
                 <div class="header__img">
-                    <div>
-                        <picture>
-                            <source media="(max-width:767px)" srcset="images/sp_kv.png">
-                            <img src="images/kv_1.jpg" alt="サロンモデル">
-                        </picture>
-                    </div>
+                    <!-- <div> -->
+                    <picture>
+                        <source media="(max-width:767px)" srcset="images/sp_kv.png">
+                        <img src="images/kv_1.jpg" alt="サロンモデル">
+                    </picture>
+                    <!-- </div> -->
                     <!-- <div>
                     <picture>
                         <source media="(max-width:767px)" srcset="images/sp_main_vs_2@2x-100.jpg">
@@ -615,8 +615,19 @@
                 $('.sp__nav').fadeToggle();
             });
 
-            // slick
 
+            // pagetop
+            var mainVisualHeight = $('.header__img').outerHeight();
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > mainVisualHeight) {
+                    $('.pagetop').fadeIn();
+                } else {
+                    $('.pagetop').fadeOut();
+                }
+            });
+
+            // slick
             /*スマホのときのみスライダーを有効にする*/
             $(function () {
                 function sliderSetting() {
